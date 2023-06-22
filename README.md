@@ -64,12 +64,12 @@ A _stack_ foi escolhida por vynnydev.
 **🏧 Server:**
 
 - [NestJS](https://github.com/nestjs/nest) 
-- [ExpressJS] (https://expressjs.com/) `(REST)` & `(Streaming Kafka)`
+- [ExpressJS](https://expressjs.com/) `(REST)` & `(Streaming Kafka)`
 - [Prisma](https://github.com/prisma/prisma)
 - [PostgreSQL](https://github.com/postgres) [`Railway`](https://railway.app/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [KafkaJS](https://www.sympla.com.br/api-doc/index.html) [`Upstash`](https://upstash.com/)
-- [Swagger] (https://swagger.io/)
+- [Swagger](https://swagger.io/)
 
 ## Funcionalidades 🚀
 
