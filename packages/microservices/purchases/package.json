@@ -1,0 +1,45 @@
+{
+  "name": "purchases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/infra/http/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear -r tsconfig-paths/register src/main/core/http/server.ts",
+    "dev:kafka": "tsnd --respawn --transpile-only --ignore-watch node_modules --exit-child --clear -r tsconfig-paths/register src/infra/messaging/kafka/app.ts",
+    "start": "node dist/main/core/http/server.js",
+    "lint": "eslint src --ext ts,tsx",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
+    "swagger-ui-express": "^4.6.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv-flow": "^3.2.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "@types/swagger-ui-express": "^4.1.3",
+    "@types/uuid": "^9.0.2",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.15.0",
+    "prisma-erd-generator": "^1.2.4",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^5.1.3"
+  }
+}
