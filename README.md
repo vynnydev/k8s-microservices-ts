@@ -27,10 +27,10 @@ Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, 
 
 **🏧 Server:**
 
-- [accounts](./packages/microservices/accounts/) **em desenvolvimento**
-- [purchases](./packages/microservices/purchases/) **feito**
-- [invoices](./packages/microservices/invoices/) **em desenvolvimento**
-- [store](./packages/microservices/store/) **em desenvolvimento**
+- [accounts](./packages/microservices/accounts/) -- **em desenvolvimento**
+- [purchases](./packages/microservices/purchases/) -- **feito**
+- [invoices](./packages/microservices/invoices/) -- **em desenvolvimento**
+- [store](./packages/microservices/store/) -- **em desenvolvimento**
 
 ```sh
 cd packages/microservices
