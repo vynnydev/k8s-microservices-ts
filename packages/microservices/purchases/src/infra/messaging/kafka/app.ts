@@ -1,9 +1,12 @@
 import { config } from 'dotenv-flow'
+import logger from '@infra/external/logger/pino/logger'
 
 config({ silent: true })
 
 import { start } from './producer' // eslint-disable-line
 
-start().then(() => {
-  console.log(`Kafka running!`)
-})
+export default async () => {
+  start().then(() => {
+    logger.info('Kafka running!')
+  })
+}

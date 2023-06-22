@@ -14,7 +14,6 @@ import AppError from '@utils/errors/AppError'
 type TCreatePurchaseProductControllerRequest = {
   name: string
   email: string
-  order_description: string
   product_id: string
 }
 

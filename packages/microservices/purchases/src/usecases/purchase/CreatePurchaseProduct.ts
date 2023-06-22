@@ -11,7 +11,6 @@ import {
 
 import AppError from '@utils/errors/AppError'
 
-import { ICreateProduct } from '@domain/application/usecases/product/ICreateProduct'
 import { ICustomersRepository } from '@domain/application/repositories/ICustomersRepository'
 import { IPurchasesRepository } from '@domain/application/repositories/IPurchasesRepository'
 
@@ -22,7 +21,6 @@ export class CreatePurchaseProduct implements ICreatePurchaseProduct {
     private customersRepository: ICustomersRepository,
     private purchasesRepository: IPurchasesRepository,
     private findProduct: IFindProduct,
-    private createProduct: ICreateProduct,
   ) {}
 
   async execute({

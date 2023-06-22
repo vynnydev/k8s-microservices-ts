@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { client } from '@infra/messaging/kafka/Kafka'
+import { client } from '@infra/messaging/kafka/kafka'
 
 import {
   IPurchaseToPaymentService,

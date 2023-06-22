@@ -1,13 +1,22 @@
-import express from 'express'
+import { config } from 'dotenv-flow'
+import express, { Express } from 'express'
 
+import setupSwagger from '@main/core/docs/swagger/handler/swagger'
 import setupMiddlewares from './config/middlewares'
 import setupRoutes from './config/routes'
-import setupErrorService from './config/errorService'
+import setupErrorHandler from './config/errorHandler'
+import setupKafkaHandler from '@infra/messaging/kafka/app'
 
-const app = express()
+export const setupAppServer = async (): Promise<Express> => {
+  config({ silent: true })
 
-setupMiddlewares(app)
-setupRoutes(app)
-setupErrorService(app)
+  const app = express()
 
-export { app }
+  setupSwagger(app)
+  setupMiddlewares(app)
+  setupRoutes(app)
+  setupErrorHandler(app)
+  setupKafkaHandler()
+
+  return app
+}
