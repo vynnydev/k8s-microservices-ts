@@ -14,7 +14,7 @@ npm install
 
 ### Back-end
 
-O back-end desse projeto é construído em Node.js, mais especificamente sua versão LTS.
+O back-end desse projeto é construído em Node.js, mais especificamente sua versão LTS, baseado em Clean Architecture.
 
 > Você pode instalar o Node.js seguindo [esse guia](https://efficient-sloth-d85.notion.site/Instalando-o-Node-js-d40fdabe8f0a491eb33b85da93d90a2f).
 
@@ -26,6 +26,10 @@ Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, 
 
 
 **🏧 Server:**
+**Todos os microsserviços são desenvolvidos em Clean Architecture**
+**Para saber mais sobre, clique no link abaixo**
+- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+![image](./docs/images/clean-architecture.jpg)
 
 - [accounts](./packages/microservices/accounts/) -- **em desenvolvimento**
 - [purchases](./packages/microservices/purchases/) -- **feito**
