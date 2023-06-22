@@ -85,10 +85,6 @@ Até o momento, levando em consideração o prazo de 2 semanas _(Due: 01/07/2023
 - [ ] **Cadastrar cartões de credito de debito**
 - [ ] **Administrar vendas e compras e adicionar dinheiro**
 - [ ] **Plataforma de vendas**
-- [ ] **Sistema de convites para a plataforma de vendas**
-  - Desconto p/ convidar
-  - Brindes p/ quem mais convidar
-- [ ] **Countdown pro evento**
 - [ ] **FAQ** - (_Frequently Asked Questions / Perguntas Frequentes_)
 
 ## Contribuições 🆘
