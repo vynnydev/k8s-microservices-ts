@@ -30,7 +30,7 @@ Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, 
 **Para saber mais sobre, clique no link abaixo** [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 <div align="center">
-  ![image](./docs/images/clean-architecture.jpg)
+  <img title="clean-architecture" src="./docs/images/clean-architecture.jpg"/>
 </div>
 
 - [accounts](./packages/microservices/accounts/) -- **em desenvolvimento**
