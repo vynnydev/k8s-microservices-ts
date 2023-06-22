@@ -25,14 +25,7 @@ Além do Node.js, utilizamos o banco de dados PostgreSQL e **recomendamos** o us
 Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, subir o serviço do banco de dados, configurar nossas variáveis ambiente e, então, subir o servidor HTTP.
 
 
-**🏧 Server:**
-**Todos os microsserviços são desenvolvidos em Clean Architecture**
-**Para saber mais sobre, clique no link:** [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-
-<div align="center">
-  <img title="clean-architecture" src="./docs/images/clean-architecture.jpg"/>
-</div>
-<br/>
+**🏧 Microsserviços:**
 
 - [accounts](./packages/microservices/accounts/) -- **em desenvolvimento**
 - [purchases](./packages/microservices/purchases/) -- **feito**
@@ -70,6 +63,17 @@ A _stack_ foi escolhida por vynnydev.
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [KafkaJS](https://www.sympla.com.br/api-doc/index.html) [`Upstash`](https://upstash.com/)
 - [Swagger](https://swagger.io/)
+- [Docker](https://www.docker.com/)
+
+**🏧 Arquitetura:**
+
+**Todos os microsserviços são desenvolvidos em Clean Architecture**
+**Para saber mais sobre, clique no link:** [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+<div align="center">
+  <img title="clean-architecture" src="./docs/images/clean-architecture.jpg"/>
+</div>
+<br/>
 
 ## Funcionalidades 🚀
 
