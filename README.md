@@ -31,7 +31,7 @@ Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, 
 
 <div align="center">
   ![image](./docs/images/clean-architecture.jpg)
-<div/>
+</div>
 
 - [accounts](./packages/microservices/accounts/) -- **em desenvolvimento**
 - [purchases](./packages/microservices/purchases/) -- **feito**
