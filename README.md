@@ -27,7 +27,7 @@ Após instalar o Node.js e o Docker, vamos acessar a pasta do projeto back-end, 
 
 **🏧 Server:**
 **Todos os microsserviços são desenvolvidos em Clean Architecture**
-**Para saber mais sobre, clique no link abaixo** [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+**Para saber mais sobre:** [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 <div align="center">
   <img title="clean-architecture" src="./docs/images/clean-architecture.jpg"/>
